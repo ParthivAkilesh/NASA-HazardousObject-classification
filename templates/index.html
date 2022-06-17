@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Nearest Earth Object</title>
+    <style>
+body{
+    background-image: url("static\\css\\img\\bg.jpg");
+    text-align: center;
+    padding-top: 100px;
+    /* background-color: black; */
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+.tb {
+    border-radius: 10px;
+    border: 2px solid white;
+    opacity:1;
+    padding: 5px; 
+    width: 500px;
+    height: 25px;  
+  }
+  .center {
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px 0;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+  }
+    </style>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style-large.css') }}" />
+</head>
+<body>
+
+    <h2 style="color:white;">Classfication of nearest earth object as Hazardous or not</h2>
+    
+     <form action="{{ url_for('classify') }}" method="post">
+
+           <input class="tb" type="number" step="any" name="eds" placeholder="Minimum Estimated Diameter(Kms)">
+           <br><br>
+           <input class="tb" type="number" step="any" name="edl" placeholder="Maximum Estimated Diameter(Kms)">
+           <br><br>
+           <input class="tb" type="number" step="any" name="rv" placeholder="Velocity Relative to Earth">
+           <br><br>
+           <input class="tb" type="number" step="any" name="md" placeholder="Distance in Kilometres missed">
+           <br><br>
+           <input class="tb" type="number" step="any" name="am" placeholder="Absolute Magnitude">
+           <br><br>
+           <div >
+            <button type="'submit" class="btn">Classify</button>
+           </div>
+            <br><br>
+     </form>
+     <br>
+    <div class="center">
+        {{ pred_out }}
+    </div>
+</body>
+</html>
