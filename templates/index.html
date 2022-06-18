@@ -3,53 +3,6 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA Nearest Earth Object</title>
-    <style>
-body{
-    background-image: url("static\\css\\img\\bg.jpg");
-    text-align: center;
-    padding-top: 100px;
-    /* background-color: black; */
-}
-
-.btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    outline: none;
-    transition: .6s ease;
-    font-weight: bold;
-}
-.btn:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
-}
-
-.tb {
-    border-radius: 10px;
-    border: 2px solid white;
-    opacity:1;
-    padding: 5px; 
-    width: 500px;
-    height: 25px;  
-  }
-  .center {
-    opacity: 0.8;
-    border-radius: 10px;
-    width: 500px;
-    margin: 20px auto;
-    padding: 20px 0;
-    border: 1px solid white;
-    background-color: white;
-    color: black;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-  }
-    </style>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style-large.css') }}" />
 </head>
 <body>
