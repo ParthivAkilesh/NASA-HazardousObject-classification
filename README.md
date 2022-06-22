@@ -16,14 +16,9 @@
    - Scikit Learn
    
 # To run oon your PC:
-Step 1 : Download the Zip file
-
-Step 2 : Open the folder in VS code
-
-Step 3 : Install the requirements using command `pip install -r requirements.txt`
-
-Step 4 : Run the app.py file using python
-
-
+Step 1: Clone this repository with `git clone`.
+Step 2: Open a terminal inside the project directory.
+Step 3: Install dependencies using `pip install -r requirements.txt`
+Step 4: Run `python app.py` to open the app on `localhost`.
    
    
