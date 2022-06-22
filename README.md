@@ -3,7 +3,7 @@
    After identifying the closest objects, the ML model tries to classify whether the objects are hazardous to earth or not. This is done by getting some parameters which includes the velocity of the object toward earth
    and the distances.
    
-# Webapp live at : ![WebApp](https://nasa-hazardousobj-classify.herokuapp.com/)
+# Webapp live at : [WebApp](https://nasa-hazardousobj-classify.herokuapp.com/)
    
    ![alt text](https://github.com/ParthivAkilesh/NASA-HazardousObject-classification/blob/main/webapp.jpg)
    
