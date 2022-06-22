@@ -15,10 +15,13 @@
    - Pandas
    - Scikit Learn
    
-# To run oon your PC:
-Step 1: Clone this repository with `git clone`.
-Step 2: Open a terminal inside the project directory.
-Step 3: Install dependencies using `pip install -r requirements.txt`
-Step 4: Run `python app.py` to open the app on `localhost`.
+#### To run on your PC:
+ Step 1: Clone this repository with `git clone`.
+ 
+ Step 2: Open a terminal inside the project directory.
+ 
+ Step 3: Install dependencies using `pip install -r requirements.txt`
+ 
+ Step 4: Run `python app.py` to open the app on `localhost`.
    
    
