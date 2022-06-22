@@ -7,7 +7,7 @@
    
    ![alt text](https://github.com/ParthivAkilesh/NASA-HazardousObject-classification/blob/main/webapp.jpg)
    
-# Tech Uesd
+# Tech Used
    
    - Python
    - Flask
