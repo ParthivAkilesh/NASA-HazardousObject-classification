@@ -9,11 +9,11 @@
    
 # Tech Uesd
    
-     - Pthon
-     - Flask
-     - Numpy
-     - Pandas
-     - Scikit Learn
+   - Python
+   - Flask
+   - Numpy
+   - Pandas
+   - Scikit Learn
    
 # To run oon your PC:
 Step 1 : Download the Zip file
